@@ -1,0 +1,12 @@
+1.问题描述
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1541)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1569)
+	at com.inca.zookeeper.step01.ZookeeperTest.main(ZookeeperTest.java:26)
+	
+	
+解决方式:
+1.延长等待时间
+2.用线程同步的方式
