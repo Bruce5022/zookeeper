@@ -9,7 +9,13 @@ import org.apache.zookeeper.Watcher.Event.KeeperState;
 import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.ZooKeeper.States;
 
-public class ZookeeperTest {
+/**
+ * 这种方式可以是可以,到底为什么这么慢??? 我本地配置跟不上了吗?
+ * 
+ * @author Bruce
+ *
+ */
+public class ZookeeperTest02 {
 	private static CountDownLatch sampleLatch = new CountDownLatch(1);
 
 	public static void main(String[] args) {

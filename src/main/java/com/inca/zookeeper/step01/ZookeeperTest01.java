@@ -8,7 +8,13 @@ import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
 
-public class Test {
+/**
+ * 这种方式出错概率大,偶尔成功,到底什么情况,需要查查
+ * 
+ * @author Bruce
+ *
+ */
+public class ZookeeperTest01 {
 	// 多个地址逗号分隔,不写端口,默认2181
 
 	public static void main(String[] args) throws KeeperException, InterruptedException, IOException {
