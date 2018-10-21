@@ -14,7 +14,7 @@ import org.apache.zookeeper.ZooKeeper.States;
 import org.apache.zookeeper.data.Stat;
 
 /**
- * 
+ * 节点操作
  * @author Bruce
  *
  */
